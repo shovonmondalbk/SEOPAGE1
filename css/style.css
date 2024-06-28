@@ -111,7 +111,7 @@ ul{
 /* Hero Section  */
 
 .hero{
-    background-image: url("../images/bg1.jpg");
+    background-image: url("../../images/bg1.jpg");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -240,7 +240,7 @@ hr{
 }
 
 .services{
-    background-image: url("../images/bg2.png");
+    background-image: url("../../images/bg2.png");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -313,7 +313,7 @@ h5{
 }
 
 .request{
-    background-image: url("../images/bg3.png");
+    background-image: url("../../images/bg3.png");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
