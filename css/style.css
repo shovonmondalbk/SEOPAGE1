@@ -180,6 +180,7 @@ h3{
     line-height: 1;
     color: #101010;
     font-weight: 600;
+    margin: 5px;
 }
 p{
     font-size: 14px;
@@ -263,6 +264,58 @@ hr{
 .h3-span2{
     color: #fdbe00;
 }
+
+.brands{
+    background: white;
+    
+}
+.brands-container{
+    max-width: 1140px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.brands-left{
+    width: 50%;
+}
+h5{
+    font-size: 20px;
+    margin: 0;
+}
+.brand-left-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+.brand-right{
+    
+    width: 100%;
+    flex-grow: 1;
+    
+    
+}
+.image-box{
+    width: 480px;
+
+}
+.poster1{
+    width: 350px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    float: right;
+}
+.poster2{
+    position: absolute;
+    width: 350px;
+    padding-top: 70px;
+    padding-left: 10px;
+}
+
+
+
+
 
 
 
@@ -459,6 +512,33 @@ p{
 }
 .service-details{
     width: 90%;
+}
+
+
+/* brands section  */
+.brands-container{
+    flex-direction: column;
+}
+.brands-left{
+    width: 95%;
+}
+.poster1{
+    width: 250px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    
+}
+.poster2{
+    position: absolute;
+    width: 250px;
+    padding-top: 70px;
+    padding-left: 0px;
+    margin-left: -30px;
+}
+.image-box{
+    width: 100%;
+
 }
 
 }
