@@ -111,7 +111,7 @@ ul{
 /* Hero Section  */
 
 .hero{
-    background-image: url("/images/background.jpg");
+    background-image: url("/images/bg1.jpg");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -313,6 +313,46 @@ h5{
     padding-left: 10px;
 }
 
+.request{
+    background-image: url("/images/bg3.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.request-container{
+    max-width: 1140px;
+    margin: auto;
+}
+.request1{
+    padding-top: 90px;
+    padding-bottom: 80px;
+}
+.request1 img{
+    width: 75%;
+}
+.request2{
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    background: #141d32;
+    width: 60%;
+    float: right;
+    position: relative;
+    margin-top: -370px;
+}
+
+.header-button2{
+    background-color: #007dff;
+    border: none;
+    color: white;
+    padding: 8px 10px 8px 10px;
+    border-radius:25px;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: Poppins;
+    font-weight: 500;
+}
 
 
 
@@ -333,7 +373,7 @@ h5{
     background-color: white;
     align-items: start;
     position: absolute;
-    top: 70px;
+    top: 66px;
     left: 0;
     width: 100%;
     z-index: 1;
@@ -425,7 +465,7 @@ p{
     background-color: #fff;
     align-items: start;
     position: absolute;
-    top: 70px;
+    top: 66px;
     left: 0;
     width: 100%;
     z-index: 1;
@@ -485,7 +525,7 @@ h3{
     width:50px;
 }
 p{
-    font-size: 12px;
+    font-size: 10px;
 }
 .anncad{
     padding-top: 20px;
@@ -539,6 +579,13 @@ p{
 .image-box{
     width: 100%;
 
+}
+h2{
+    font-size: 24px;
+}
+.request2{
+    
+    margin-top: -280px;
 }
 
 }
