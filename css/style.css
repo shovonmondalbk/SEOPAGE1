@@ -226,7 +226,9 @@ h2{
     color: #007dff;
 }
 hr{
-    border-top: 2px solid #007dff;
+    color: #007dff;
+    border-top: 1px solid #007dff;
+    border-bottom: 1px solid #007dff;
     margin-top: 0;
     width: 20%;
     float: left;
@@ -237,6 +239,30 @@ hr{
 
 }
 
+.services{
+    background-image: url("/images/bg2.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sevices-container{
+    max-width: 1140px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+.service-details{
+    width: 50%;
+}
+.h3-span1{
+    color: white;
+}
+.h3-span2{
+    color: #fdbe00;
+}
 
 
 
@@ -426,6 +452,13 @@ p{
     width: 100%;
     float: left;
 
+}
+.sevices-container{
+    flex-direction: column;
+    gap: 20px;
+}
+.service-details{
+    width: 90%;
 }
 
 }
